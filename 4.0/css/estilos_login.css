@@ -1,0 +1,68 @@
+body{
+    background-color: #e7e0cd;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 500px;
+    
+} 
+
+img{
+    width: 33%;
+    height: auto;
+}
+
+input{
+    display: center;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+   
+}
+
+.boton{
+    width: 30%;
+    border-radius: 15px;
+    background: darkcyan;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 4px solid green;
+}
+
+.boton:hover{
+    background-color: green;
+    width: 29.5%;
+}
+
+/*    tablet  /  ¡Pad   */
+
+/*       vertical      */
+@media screen and (min-width: 600px) and (max-width: 900px) and (orientation: portrait){
+    
+    
+}
+/*  horizontal  */ 
+@media screen and (min-width: 800px ) and (max-width: 1100px) and (orientation: landscape){
+    
+}
+
+/*    celulares      */
+
+/*    vertical      */
+@media screen and (max-width: 400px) and (orientation: portrait){
+   
+}
+/*   horizontal   */
+@media screen and (min-width: 450px) and (max-width:850px ) and (orientation: landscape){
+    
+}
